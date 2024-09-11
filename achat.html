@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            Biblioth&egrave;que
+        </title>
+        <link href="achat.css" rel="stylesheet">
+    </head>
+    <body>
+        <a href="index.html">Consultez nos livres</a>
+        <hr class="shadow-row">
+        <h2>Pour acheter un livre :</h2>
+        <form>
+            <fieldset>
+                <legend><button> 
+                     Formulaire d'achat
+                 </button></legend>
+                 <div>
+                     <div class="col1">
+                         <label for="name">Nom :</label>
+                         <input type="text" id="name">
+ 
+                         <label for="surname">Pr&#233nom :</label>
+                         <input type="text" id="surname">
+ 
+                         <label for="visa">Num&#233ro de la carte visa :</label>
+                         <input type="text" id="visa">
+ 
+                     </div>
+                     <div class="col2">
+                         <label for="time">Date d&apos;expiration de la carte :</label>
+                         <input type="date" value="jj/mm/aaaa">
+ 
+                         <label for="livre">Choississez un livre :</label>
+                         <select>
+                             <option value="1">Notre dame de Paris</option>
+                             <option value="2">Une &#233vidence</option>
+                             <option value="3">Une fille comme elle</option>
+                             <option value="4" selected>Les gratitudes</option>
+                         </select>
+ 
+                         <label for="copie">Nombre de copie &agrave acheter :</label>
+                         <div class="copie">
+                             <label>
+                                 <input type="radio" value="1">1
+                             </label>
+     
+                             <label>
+                                 <input type="radio" value="2">2
+                             </label>
+     
+                             <label>
+                                 <input type="radio" value="3">3
+                             </label>  
+                         </div> 
+                     </div>
+                     <input type="submit" value="Envoyer">
+                 </div>
+ 
+             </fieldset>
+        </form>
+        <script src="achat.js"></script>
+ 
+    </body>
+</html>
